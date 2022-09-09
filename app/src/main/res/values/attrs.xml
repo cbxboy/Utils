@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="MyText" format="string"/>
+        <attr name="MyTextColor" format="color"/>
+        <attr name="MyTextSize" format="dimension"/>
+
+        <attr name="MyInputType" >
+            <enum name="text" value="0"/>
+            <enum name="number" value="1"/>
+            <enum name="password" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="QQStepView">
+        <attr name="outerColor" format="color"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="boardWidth" format="dimension"/>
+        <attr name="stepTextSize" format="dimension"/>
+        <attr name="stepTextColor" format="color"/>
+    </declare-styleable>
+    
+</resources>
