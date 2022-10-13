@@ -1,4 +1,4 @@
-package com.zorro.utils;
+package com.zorro.utils.CustomizeView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,6 +13,8 @@ import android.view.View;
 
 import androidx.annotation.Dimension;
 import androidx.annotation.Nullable;
+
+import com.zorro.utils.R;
 
 /**
  * @Author : cbx
@@ -37,7 +39,7 @@ public class MyTextView extends View {
 
     public MyTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        TypedArray typedArray = context.obtainStyledAttributes(attrs,R.styleable.MyTextView);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyTextView);
         mText = typedArray.getString(R.styleable.MyTextView_MyText);
         textSize = typedArray.getDimensionPixelSize(R.styleable.MyTextView_MyTextSize,sp2px(textSize));
         textColor = typedArray.getColor(R.styleable.MyTextView_MyTextColor,textColor);

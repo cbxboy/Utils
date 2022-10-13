@@ -1,4 +1,4 @@
-package com.zorro.utils;
+package com.zorro.utils.CustomizeView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,6 +11,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.zorro.utils.R;
 
 /**
  * @Author : cbx

@@ -1,4 +1,4 @@
-package com.zorro.utils;
+package com.zorro.utils.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,9 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.TextView;
+
+import com.zorro.utils.CustomizeView.QQStepView;
+import com.zorro.utils.R;
 
 public class MainActivity extends AppCompatActivity {
 
